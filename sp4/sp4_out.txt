@@ -1,0 +1,18 @@
+pseudo-op         PROG1   START     0
+machine-op  RR    BEGIN   BALR      11,0
+pseudo-op                 USING     *,11
+machine-op  RR            L         2,DATA
+machine-op  RR            A         2,CON
+machine-op  RR            SLA       2,1
+machine-op  RR            S         2,DATA
+machine-op  RR            ST        2,RESULT
+machine-op  RR            L6,       BIN1
+machine-op  RR    DATA    A         6,BIN2
+pseudo-op                 DC        F'25'
+pseudo-op                 DC        F'15'
+pseudo-op         CON     DC        F'0'
+pseudo-op         RESULT  DS        F
+pseudo-op         BIN1    DC        F'12'
+pseudo-op         BIN2    DC        F'78'
+pseudo-op         DEC     DS        D
+pseudo-op                 END

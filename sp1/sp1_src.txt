@@ -1,0 +1,14 @@
+CSU504 SYSTEM PROGRAMMING LAB
+Teaching Scheme:   02 P Total 02 Credit: 01
+Evaluation Scheme: 25 ICA + 25 ESE Total Marks: 50
+
+1.Minimum eight experiments shall be performed to cover entire curriculum of CSU501 and
+the list given is just a guideline.
+
+2.ICA – The Internal Continuous Assessment shall be based on practical record and knowledge or skills acquired.
+
+3.The performance shall be assessed experiment wise by using
+continuous assessment format, A & B.
+
+4. ESE- The End Semester Exam for Practical shall be based on performance in one of the experiments and may
+be followed by sample questions.

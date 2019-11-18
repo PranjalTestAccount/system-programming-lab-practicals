@@ -1,0 +1,16 @@
+MACRO   ADD   MEND    A
+        A     1,&ARG1
+        A     2,&ARG2
+        A     3,&ARG3
+        MACRO
+        SUB   &ARG1,&ARG2
+        S     1,&ARG1
+        S     2,&ARG2
+TEST    START
+        USING *,15
+        SUB   DATA1,DATA2
+        LTORG
+DATA1   DC    F'5'
+DATA2   DC    F'10'
+DATA3   DC    F'15'
+        END

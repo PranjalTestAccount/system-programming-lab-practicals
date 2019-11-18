@@ -1,0 +1,18 @@
+PROG1   START     0
+BEGIN   BALR      11,0
+        USING     *,11
+        L         2,DATA
+        A         2,CON
+        SLA       2,1
+        S         2,DATA
+        ST        2,RESULT
+        L         6,BIN1
+DATA    A         6,BIN2
+        DC        F'25'
+        DC        F'15'
+CON     DC        F'0'
+RESULT  DS        F
+BIN1    DC        F'12'
+BIN2    DC        F'78'
+DEC     DS        D
+        END
